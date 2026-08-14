@@ -10,11 +10,13 @@ There is no physical emergency stop button on this delivery. Stopping the robot 
 |---|---|---|
 | The robot is walking somewhere you do not want it to go, and the situation is under control | **1× START** | The robot enters Standing: it stops walking and remains standing |
 | A dance or gesture is running and must be cut short | **2× START** | The running action is interrupted |
-| **Emergency: unpredictable behaviour, risk to people** | **`L2+B`** | Damping mode — the robot **slowly sinks to the ground** |
+| **Emergency: unpredictable behaviour, risk to people** {: .row-danger } | ++l2+b++{: .kbd-danger } | Damping mode — the robot **slowly sinks to the ground** |
 | The remote control is dead or unresponsive | Battery button | **Only after suspending the robot** with its feet off the ground and at least 2 m of clear space around it. Otherwise it falls flat |
 
-!!! danger "Emergency stop is `L2+B`"
-    From the Unitree user manual: *"Emergency Stop: When G1 appears in an unexpected state, press `L2+B`, G1 will enter damping mode and will slowly fall to the ground."*
+!!! danger "Emergency stop"
+    The emergency stop is ++l2+b++{: .kbd-danger }
+
+    From the Unitree user manual: *"Emergency Stop: When G1 appears in an unexpected state, press ++l2+b++, G1 will enter damping mode and will slowly fall to the ground."*
 
     Teach this combination to students **first**, before anything else.
 
@@ -24,7 +26,7 @@ A double press of START interrupts the **action that is currently running**. It 
 
 If the robot is simply walking and no action is running, there is nothing to interrupt: a double START puts the robot into **Keep stepping** — stepping in place. The robot will not run off, but it will not stop either, and the operator will believe they pressed stop. That false sense of safety is the danger.
 
-- **Emergency stop:** `L2+B`. The robot enters Damping and sinks to the floor.
+- **Emergency stop:** ++l2+b++. The robot enters Damping and sinks to the floor.
 - **Normal stop:** one press of START. The robot stops walking and stays standing.
 
 ### Fall protection
@@ -35,7 +37,7 @@ The robot has automatic fall protection: on detecting a fall, the motors switch 
 
 | # | Rule |
 |---|---|
-| 1 | **Emergency stop is `L2+B`** — the robot sinks slowly to the floor. Teach this to students first. The soft stop is a single press of START |
+| 1 | **Emergency stop is ++l2+b++** — the robot sinks slowly to the floor. Teach this to students first. The soft stop is a single press of START |
 | 2 | **Never activate Damping while the robot is standing unsupported.** Torque is lost instantly and the robot falls. Squat it or suspend it first |
 | 3 | **Do not move the robot's joints by hand in Damping mode.** This raises an error |
 | 4 | **Do not change wired network settings inside the robot.** Recovering from this requires opening the back panel and reinstalling the operating system |

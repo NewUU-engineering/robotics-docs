@@ -80,10 +80,10 @@ This is also why the robot feels tense in Zero Torque: the built-in program is a
 | Step | Action | Check |
 |---|---|---|
 | 1 | Suspend the robot on the gantry and put it into **Damping** | — |
-| 2 | Press **`L2+R2`** | Develop mode is entered; the built-in program stops |
-| 3 | Press **`L2+A`** | The robot takes a specific diagnostic pose (position mode), confirming Develop mode is active |
-| 4 | If the pose is wrong, press **`L2+R2`** again until it is correct | — |
-| 5 | Press **`L2+B`** | Back to Damping. You can now work with the SDK |
+| 2 | Press ++l2+r2++ | Develop mode is entered; the built-in program stops |
+| 3 | Press ++l2+a++ | The robot takes a specific diagnostic pose (position mode), confirming Develop mode is active |
+| 4 | If the pose is wrong, press ++l2+r2++ again until it is correct | — |
+| 5 | Press ++l2+b++ | Back to Damping. You can now work with the SDK |
 
 ## High level and low level
 

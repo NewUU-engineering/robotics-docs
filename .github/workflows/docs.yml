@@ -1,18 +1,30 @@
-name: Deploy Docs
+name: Deploy docs
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: write
+
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
         with:
-          python-version: 3.x
-      - run: pip install mkdocs-material "mkdocs-static-i18n[material]"
-      - run: mkdocs gh-deploy --force
+          python-version: '3.x'
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      # --strict fails the build on broken links and missing nav files, so a
+      # green pipeline actually means the site is sound.
+      - name: Build
+        run: mkdocs build --strict
+
+      - name: Deploy
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        run: mkdocs gh-deploy --force

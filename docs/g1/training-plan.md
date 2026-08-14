@@ -4,15 +4,15 @@
 
 Work through this list before the next session. Start with the emergency stop and drill it until it is automatic.
 
-- [ ] **Emergency stop `L2+B`** — drill this first, to the point of reflex
+- [ ] **Emergency stop ++l2+b++** — drill this first, to the point of reflex
 - [ ] Soft stop with a single press of START
 - [ ] Power-on and power-off to procedure, including the ≥2 s hold and the one-minute wait
 - [ ] The full startup chain: `Zero Torque → L2+B → L2+↑ → R2+A`
-- [ ] Posture transitions: `L2+A` squat, `L2+←` seated, `L2+X` lying and standing
+- [ ] Posture transitions: ++l2+a++ squat, `L2+←` seated, ++l2+x++ lying and standing
 - [ ] Standing the robot up from the floor
-- [ ] Walking, turning, and switching speeds (`2×L2` / `2×L1`)
+- [ ] Walking, turning, and switching speeds (2× ++l2++ / 2× ++l1++)
 - [ ] Drift compensation from the remote (`R1 + arrows`)
-- [ ] Interactive gestures (`SELECT+A` / `+Y` / `+X`)
+- [ ] Interactive gestures (++select+a++ / `+Y` / `+X`)
 - [ ] Dance mode with the required clear space
 - [ ] Connecting the application in AP mode
 - [ ] Demo Teaching — record and replay your own gesture

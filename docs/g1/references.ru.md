@@ -8,8 +8,8 @@
 - [Overview — Unitree G1 Docs](https://docs.quadruped.de/projects/g1/html/g1_overview.html) — Livox MID-360, RealSense D435i и степени свободы по конфигурациям.
 - [Unitree G1 Developer Guide](https://support.unitree.com/home/en/G1_developer) — официальный портал для разработчиков.
 - [G1 Development Guide — Weston Robot](https://docs.westonrobot.com/tutorial/unitree/g1_dev_guide/) — IP-адреса, учётные данные и Debug mode.
-- [Motion — unitreerobotics/xr_teleoperate Wiki](https://github.com/unitreerobotics/xr_teleoperate/wiki/Motion) — смена раскладки с L1 на L2 и `R1+X` для талии на 1 DoF.
-- [Unitree G1 — Robotics Knowledgebase](https://roboticsknowledgebase.com/wiki/common-platforms/unitree-g1/) — FSM 500 / 501 / 801 и соответствие `R1+X` / `R1+Y` / `R2+A`.
+- [Motion — unitreerobotics/xr_teleoperate Wiki](https://github.com/unitreerobotics/xr_teleoperate/wiki/Motion) — смена раскладки с L1 на L2 и ++r1+x++ для талии на 1 DoF.
+- [Unitree G1 — Robotics Knowledgebase](https://roboticsknowledgebase.com/wiki/common-platforms/unitree-g1/) — FSM 500 / 501 / 801 и соответствие ++r1+x++ / ++r1+y++ / ++r2+a++.
 
 ## Программное обеспечение
 
