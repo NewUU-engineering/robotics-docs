@@ -13,7 +13,7 @@ The gantry is the safe working position for development, calibration and diagnos
 | 5 | Work **in pairs**: one person steadies and moves the stand, the other operates the remote |
 
 !!! danger "Suspended too high"
-    A robot suspended too high and then powered on cannot feel the floor, cannot reach its working stance, and starts extending its legs erratically trying to reach the ground. Keep a finger on **`L2+B`** (Damping). If that does not settle it, power the robot off. This situation is uncommon but likely when working with students.
+    A robot suspended too high and then powered on cannot feel the floor, cannot reach its working stance, and starts extending its legs erratically trying to reach the ground. Keep a finger on ++l2+b++ (Damping). If that does not settle it, power the robot off. This situation is uncommon but likely when working with students.
 
 ## Powering on a suspended robot
 
@@ -21,17 +21,17 @@ The gantry is the safe working position for development, calibration and diagnos
 |---|---|---|
 | 1 | Apply power and wait ~1 minute | — |
 | 2 | The robot enters Zero Torque **automatically** | — |
-| 3 | Press **L2+B** | `Damp mode.` |
+| 3 | Press ++l2+b++ | `Damp mode.` |
 | 4 | Run **Lock Stand** (`L2+↑`) | `Ready mode.` |
 | 5 | Only now may the robot be lowered or placed on the floor | — |
-| 6 | Switch to a working mode (`R2+A` or `R1+Y`) | `Walk-around mode activated…` |
+| 6 | Switch to a working mode (++r2+a++ or ++r1+y++) | `Walk-around mode activated…` |
 
 !!! danger "Do not handle the robot before Lock Stand"
     Do not pick the robot up or manipulate its legs before the Lock Stand step. It will go limp and fall.
 
 ## Debug mode
 
-**Debug Mode is `L2+R2`.** Enter it while the robot is **suspended and in Damping**. Return to Damping with `L2+B`.
+**Debug Mode is ++l2+r2++.** Enter it while the robot is **suspended and in Damping**. Return to Damping with ++l2+b++.
 
 ## Standby during development
 
@@ -43,11 +43,11 @@ Leave the robot **suspended on the gantry**, connect the power cable — the ind
 2. Lift it by hand and clear it from the sling.
 3. Remove the catches.
 
-## Why `L2+B` must be held
+## Why ++l2+b++ must be held
 
 The asymmetry is deliberate:
 
-- **When powering on,** `L2+B` responds to a single short press.
+- **When powering on,** ++l2+b++ responds to a single short press.
 - **When shutting down, or from an active state,** a single press is not enough — the combination must be **held**.
 
-This prevents an accidental brush against `L2+B` during operation from de-energising the motors and dropping a standing robot.
+This prevents an accidental brush against ++l2+b++ during operation from de-energising the motors and dropping a standing robot.

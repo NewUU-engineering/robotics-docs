@@ -51,29 +51,29 @@ All combinations on this page are for **firmware V1.0.4**. Verify your firmware 
 |---|---|
 | Power on / off | Battery button: one short press, then **hold ≥2 s** |
 | Boot time | **~1 minute** to Zero Torque |
-| Zero Torque | **L2+Y** |
-| Damping | **L2+B** — from an active state, **hold** the combination rather than tapping it |
+| Zero Torque | ++l2+y++ |
+| Damping | ++l2+b++ — from an active state, **hold** the combination rather than tapping it |
 | Lock Stand → Ready | **L2+↑** |
-| Squat Switch | **L2+A** (toggle) |
+| Squat Switch | ++l2+a++ (toggle) |
 | Seated Mode | **L2+←** |
-| Lying / Standing | **L2+X** |
-| Debug Mode | **L2+R2** — enter while the robot is **suspended and in Damping** |
-| Run Control | **R2+A** |
-| Main Operation Control (1-DoF waist) | **R1+X** |
-| **Main Operation Control (3-DoF waist — our robot)** | **R1+Y** — "Only Used For 3-DOF Waist Structure" |
+| Lying / Standing | ++l2+x++ |
+| Debug Mode | ++l2+r2++ — enter while the robot is **suspended and in Damping** |
+| Run Control | ++r2+a++ |
+| Main Operation Control (1-DoF waist) | ++r1+x++ |
+| **Main Operation Control (3-DoF waist — our robot)** | ++r1+y++ — "Only Used For 3-DOF Waist Structure" |
 | Stand ⇄ walk | **single press of START** |
 | Continuous walking | **double press of START** — not recommended |
 | Low / high speed | **2×L2** / **2×L1** (inside R1+X, R1+Y) |
 | Slow / fast run | **R2+↓** / **R2+↑** (inside R2+A) |
 | Lean forward / backward | hold **START+↑** / **START+↓** |
 | Drift compensation | **R1 + arrows** (inside R1+X, R1+Y) |
-| Handshake | **SELECT+A** (hold SELECT, press A) |
-| Wave hand | **SELECT+Y** |
-| Turn around and wave | **SELECT+X** |
-| **Emergency stop** | **L2+B** — the robot sinks slowly to the floor |
-| Stand up from the floor | **L2+X** |
-| Dance mode | hold the **triangle** button; start a dance with **R1+B** |
-| Remote control calibration | **F1+F3** → rotate both sticks fully around → **F3** to save |
+| Handshake | ++select+a++ (hold SELECT, press A) |
+| Wave hand | ++select+y++ |
+| Turn around and wave | ++select+x++ |
+| **Emergency stop** {: .row-danger } | ++l2+b++{: .kbd-danger } — the robot sinks slowly to the floor |
+| Stand up from the floor | ++l2+x++ |
+| Dance mode | hold the **triangle** button; start a dance with ++r1+b++ |
+| Remote control calibration | ++f1+f3++ → rotate both sticks fully around → ++f3++ to save |
 
 !!! note "Remote control symbols"
     A **triangle** next to a button means hold it. A **star** means a short press.
@@ -82,10 +82,10 @@ All combinations on this page are for **firmware V1.0.4**. Verify your firmware 
 
 | Mode | Entry | Character |
 |---|---|---|
-| **Main Operation Control** | **`R1+Y`** for our robot (3-DoF waist); `R1+X` for a 1-DoF configuration | More stable, more assured, noticeably louder |
-| **Run Control** | **`R2+A`** | Faster, less stable gait |
+| **Main Operation Control** | ++r1+y++ for our robot (3-DoF waist); ++r1+x++ for a 1-DoF configuration | More stable, more assured, noticeably louder |
+| **Run Control** | ++r2+a++ | Faster, less stable gait |
 
-Unitree specifies `R1+Y` for robots with a 3-DoF waist: *"Only Used For 3-DOF Waist Structure"*. Our unit has a 3-DoF waist, so `R1+Y` is the mode to use.
+Unitree specifies ++r1+y++ for robots with a 3-DoF waist: *"Only Used For 3-DOF Waist Structure"*. Our unit has a 3-DoF waist, so ++r1+y++ is the mode to use.
 
 !!! warning "Continuous walking"
     A double press of START enables Continuous Walking, which Unitree marks as not recommended. Do not confuse it with the single press of START, which stops walking.

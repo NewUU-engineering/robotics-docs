@@ -29,6 +29,6 @@ The 2-metre rule applies in every direction. For [Dance mode](operation.md#dance
 
 5. **Check the remote control.** Confirm you have the G1 remote and not the Go2 remote — both live in the same case and are labelled. Compare the legend printed on the remote body against the [controls reference](controls.md).
 
-6. **Check the firmware version** in the mobile application under **About**. Older revisions map the mode functions to **L1** instead of L2.
+6. **Check the firmware version** in the mobile application under **About**. Older revisions map the mode functions to ++l1++ instead of L2.
 
 7. **Decide about the head.** The head is the component most often damaged and most often modified. Before an active demonstration with students, remove it or suspend the robot on the gantry. Removal requires a **Torx** driver, not a hex key.

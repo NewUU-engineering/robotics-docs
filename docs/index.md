@@ -14,7 +14,7 @@ The site is available in **English** and **Russian** — switch with the languag
 
 Read **[G1 Safety](g1/safety.md)** first. It is short, and it contains the one thing every operator must know before the robot is powered on: how to stop it.
 
-The emergency stop for the G1 is **`L2+B`**. There is no physical emergency stop button on this delivery.
+The emergency stop for the G1 is ++l2+b++. There is no physical emergency stop button on this delivery.
 
 ## How the documentation is organised
 

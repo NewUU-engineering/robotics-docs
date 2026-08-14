@@ -3,14 +3,14 @@
 This is the operating manual for the Unitree G1 EDU humanoid robot as delivered to the NewUU Engineering School. It covers startup, motion control, calibration, the mobile application, SDK development, maintenance and troubleshooting.
 
 !!! danger "Read the safety page first"
-    The emergency stop is **`L2+B`**. There is no physical emergency stop button on this delivery. Read **[Safety](safety.md)** before powering the robot on, and brief every new operator on it.
+    The emergency stop is ++l2+b++. There is no physical emergency stop button on this delivery. Read **[Safety](safety.md)** before powering the robot on, and brief every new operator on it.
 
 ## Firmware scope
 
 This manual documents **firmware V1.0.4**. Check your firmware version in the mobile application under **About** before the first session.
 
 !!! warning "Firmware earlier than V1.0.4"
-    Firmware versions before V1.0.4 use **L1** where V1.0.4 uses **L2**: Zero Torque is `L1+B`, Damping is `L1+A`, Lock Stand is `L1+↑`. Every combination in this manual assumes V1.0.4.
+    Firmware versions before V1.0.4 use ++l1++ where V1.0.4 uses ++l2++: Zero Torque is ++l1+b++, Damping is ++l1+a++, Lock Stand is `L1+↑`. Every combination in this manual assumes V1.0.4.
 
 ## Source precedence
 

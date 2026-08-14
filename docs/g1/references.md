@@ -8,8 +8,8 @@
 - [Overview — Unitree G1 Docs](https://docs.quadruped.de/projects/g1/html/g1_overview.html) — Livox MID-360, RealSense D435i, and the DoF of each configuration.
 - [Unitree G1 Developer Guide](https://support.unitree.com/home/en/G1_developer) — the official developer portal.
 - [G1 Development Guide — Weston Robot](https://docs.westonrobot.com/tutorial/unitree/g1_dev_guide/) — IP addresses, credentials, and Debug mode.
-- [Motion — unitreerobotics/xr_teleoperate Wiki](https://github.com/unitreerobotics/xr_teleoperate/wiki/Motion) — the L1-to-L2 layout change and `R1+X` for a 1-DoF waist.
-- [Unitree G1 — Robotics Knowledgebase](https://roboticsknowledgebase.com/wiki/common-platforms/unitree-g1/) — FSM 500 / 501 / 801 and the `R1+X` / `R1+Y` / `R2+A` mapping.
+- [Motion — unitreerobotics/xr_teleoperate Wiki](https://github.com/unitreerobotics/xr_teleoperate/wiki/Motion) — the L1-to-L2 layout change and ++r1+x++ for a 1-DoF waist.
+- [Unitree G1 — Robotics Knowledgebase](https://roboticsknowledgebase.com/wiki/common-platforms/unitree-g1/) — FSM 500 / 501 / 801 and the ++r1+x++ / ++r1+y++ / ++r2+a++ mapping.
 
 ## Software
 
