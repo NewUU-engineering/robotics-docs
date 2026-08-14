@@ -1,21 +1,67 @@
 site_name: Robotics Docs
 site_description: Operations and development documentation for the robotics platforms of the NewUU Engineering School
+site_url: 'https://newuu-engineering.github.io/robotics-docs/'
 repo_name: 'NewUU-engineering'
 repo_url: 'https://github.com/NewUU-engineering/robotics-docs'
 theme:
   name: material
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: red
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
   icon:
     repo: fontawesome/brands/github
   features:
-    - navigation.instant
+    # navigation.instant is intentionally omitted: it breaks the contextual
+    # link of the language switcher, which would send readers to the home
+    # page instead of the same page in the other language.
     - navigation.tracking
     - toc.follow
     - navigation.top
+    - content.tabs.link
 plugins:
   - search
+  - i18n:
+      docs_structure: suffix
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: ru
+          name: Русский
+          build: true
+          site_name: Robotics Docs
+          site_description: Документация по эксплуатации и разработке для робототехнических платформ Инженерной школы NewUU
+          nav_translations:
+            Introduction: Введение
+            Unitree G1 EDU: Unitree G1 EDU
+            Overview: Обзор
+            Safety: Техника безопасности
+            Controls reference: Справочник по управлению
+            Workspace preparation: Подготовка рабочего места
+            Standard operating procedures: Штатные процедуры
+            Working on the gantry: Работа с кронштейном
+            Mobile application: Мобильное приложение
+            Calibration: Калибровка
+            Development: Разработка
+            Maintenance: Обслуживание
+            Troubleshooting: Устранение неисправностей
+            Training plan: Учебный план
+            References: Источники
 validation:
   omitted_files: warn
   absolute_links: warn
@@ -28,6 +74,7 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
   - pymdownx.details
   - pymdownx.superfences
 nav:

@@ -4,6 +4,8 @@ This repository holds the operating and development documentation for the roboti
 
 Every procedure here is written as a procedure. Steps are numbered, button combinations are exact, and safety requirements are marked as such. Follow them in the order given.
 
+The site is available in **English** and **Russian** — switch with the language selector in the header. Use the icon next to it to switch between the light and dark theme.
+
 ## Platforms
 
 - **[Unitree G1 EDU](g1/index.md)** — humanoid robot, EDU (secondary development) version. Full operating manual, calibration procedure, SDK and network setup, maintenance and troubleshooting.
@@ -66,7 +68,7 @@ Or with a Python virtual environment:
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-pip install mkdocs-material
+pip install mkdocs-material "mkdocs-static-i18n[material]"
 mkdocs serve
 ```
 

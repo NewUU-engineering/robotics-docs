@@ -8,7 +8,15 @@ Operating and development documentation for the robotics platforms of the NewUU 
 
 - **Unitree G1 EDU** — the full operating manual: safety, controls reference, workspace preparation, standard operating procedures, gantry work, the mobile application, calibration, SDK development, maintenance, troubleshooting and the student training plan.
 
-The documentation is written in English, as procedures. Steps are numbered, button combinations are exact, and safety requirements are marked as such.
+The documentation is written as procedures. Steps are numbered, button combinations are exact, and safety requirements are marked as such.
+
+## Languages
+
+The site is published in **English** (default) and **Russian**, switchable from the language selector in the header. English is the source of truth: make substantive changes there first, then mirror them into the Russian page.
+
+Localisation uses [`mkdocs-static-i18n`](https://github.com/ultrabug/mkdocs-static-i18n) with the suffix structure — `page.md` is English and `page.ru.md` is its Russian counterpart. A missing `.ru.md` file falls back to the English page rather than breaking the build.
+
+The site also offers a light/dark theme toggle in the header, which follows the reader's system preference by default.
 
 ## Reporting problems and proposing improvements
 
@@ -47,7 +55,7 @@ git clone https://github.com/NewUU-engineering/robotics-docs
 cd robotics-docs
 python3 -m venv venv
 source venv/bin/activate
-pip install mkdocs-material
+pip install mkdocs-material "mkdocs-static-i18n[material]"
 mkdocs serve
 ```
 
