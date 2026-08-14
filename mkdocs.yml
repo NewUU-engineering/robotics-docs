@@ -1,0 +1,48 @@
+site_name: Robotics Docs
+site_description: Operations and development documentation for the robotics platforms of the NewUU Engineering School
+repo_name: 'NewUU-engineering'
+repo_url: 'https://github.com/NewUU-engineering/robotics-docs'
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: red
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - toc.follow
+    - navigation.top
+plugins:
+  - search
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+  anchors: warn
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+nav:
+  - Introduction: "index.md"
+  - Unitree G1 EDU:
+    - Overview: "g1/index.md"
+    - Safety: "g1/safety.md"
+    - Controls reference: "g1/controls.md"
+    - Workspace preparation: "g1/workspace.md"
+    - Standard operating procedures: "g1/operation.md"
+    - Working on the gantry: "g1/gantry.md"
+    - Mobile application: "g1/mobile-app.md"
+    - Calibration: "g1/calibration.md"
+    - Development: "g1/development.md"
+    - Maintenance: "g1/maintenance.md"
+    - Troubleshooting: "g1/troubleshooting.md"
+    - Training plan: "g1/training-plan.md"
+    - References: "g1/references.md"
