@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/g1/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/g1/calibration/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/calibration/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/calibration/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/g1/controls/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/controls/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/controls/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/g1/development/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/development/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/development/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/g1/gantry/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/gantry/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/gantry/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/g1/maintenance/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/maintenance/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/g1/mobile-app/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/mobile-app/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/mobile-app/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/g1/operation/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/operation/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/operation/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/g1/references/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/references/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/references/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/g1/safety/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/safety/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/safety/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/g1/training-plan/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/training-plan/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/training-plan/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/g1/troubleshooting/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/troubleshooting/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/troubleshooting/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/g1/workspace/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/workspace/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/workspace/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/ru/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/ru/g1/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/ru/g1/calibration/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/calibration/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/calibration/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/ru/g1/controls/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/controls/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/controls/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/ru/g1/development/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/development/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/development/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/ru/g1/gantry/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/gantry/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/gantry/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/ru/g1/maintenance/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/maintenance/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/ru/g1/mobile-app/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/mobile-app/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/mobile-app/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/ru/g1/operation/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/operation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/operation/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/ru/g1/references/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/references/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/references/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/ru/g1/safety/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/safety/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/safety/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/ru/g1/training-plan/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/training-plan/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/training-plan/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/ru/g1/troubleshooting/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/troubleshooting/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/troubleshooting/"/>
+    </url>
+    <url>
+        <loc>https://newuu-engineering.github.io/robotics-docs/ru/g1/workspace/</loc>
+        <lastmod>2026-11-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://newuu-engineering.github.io/robotics-docs/ru/g1/workspace/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://newuu-engineering.github.io/robotics-docs/g1/workspace/"/>
+    </url>
+</urlset>
